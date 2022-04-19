@@ -1,3 +1,11 @@
 body {
 	background-color: dimgrey;
 }
+
+nav {
+	display: inline;
+
+}
+header {
+	background-color: coral;
+}
