@@ -9,5 +9,5 @@ export default {
 </script>
 
 <template lang="pug">
-	button(@click="count++") You clicked me {{ count }} times.
+button(@click="count++") You clicked me {{ count }} times.
 </template>

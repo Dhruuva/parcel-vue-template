@@ -1,4 +1,7 @@
-<template lang="pug"> div h1 This is the app {{name}} </template>
+<template lang="pug">
+div(id="main")
+  h1  This is the app {{name}}
+</template>
 
 <script>
   export default {
