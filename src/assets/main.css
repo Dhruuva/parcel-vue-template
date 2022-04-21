@@ -8,6 +8,7 @@ nav {
 }
 header {
 	background-color: coral;
+  
 }
 
 article {
@@ -16,4 +17,7 @@ article {
   width: 70%;
   background-color: #f1f1f1;
   height: 300px; /* only for demonstration, should be removed */
+}
+#app1{
+  fill: none;  width: 100%; height: auto; background-color: lightblue;
 }
