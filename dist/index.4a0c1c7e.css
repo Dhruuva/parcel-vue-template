@@ -1,9 +1,22 @@
 body {
+  height: 100vh;
   background-color: #696969;
 }
 
 nav {
   display: inline;
+}
+
+#nav li {
+  color: green;
+  background: azure;
+  border-style: groove;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 5px;
+  font-size: 28px;
+  font-weight: 700;
+  display: inline-block;
 }
 
 header {
@@ -16,6 +29,13 @@ article {
   height: 300px;
   background-color: #f1f1f1;
   padding: 20px;
+}
+
+#app1 {
+  fill: none;
+  width: 100%;
+  height: auto;
+  background-color: #add8e6;
 }
 
 /*# sourceMappingURL=index.4a0c1c7e.css.map */

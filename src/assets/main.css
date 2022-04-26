@@ -1,11 +1,30 @@
 body {
 	background-color: dimgrey;
+  height: 100vh;
 }
 
 nav {
 	display: inline;
 
 }
+/*#nav>ul>li {
+   background: #cce5ff;
+   color: green;
+   margin: 5px;
+   display: inline-block;
+}*/
+#nav li {
+   background: azure;
+   color: green;
+   margin: 15px;
+   padding: 5px;
+   display: inline-block;
+   font-size: 28;
+   font-weight: 700;
+   border-style: groove;
+   border-radius: 5px;
+}
+
 header {
 	background-color: coral;
   

@@ -1,0 +1,31 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport' content='width=device-width, initial-scale=1.0')
+		title Market
+		link(rel="stylesheet" href="./assets/main.css" type="text/css")
+		link(rel="stylesheet" href="./assets/sakura.css" type="text/css")
+	body
+		header
+			ul#nav
+				li.item1
+					a(href='index.html')  Home 
+				li.item2
+					a(href='about.html') About
+				li.item3
+					a(href='market.pug') Market
+				li.item4
+					a(href='#') Sakura 	  
+		h1 sakura: a minimal classless css framework / theme.
+		form
+			input#html(type='radio' name='fav_language' value='HTML')
+			label(for='html') HTML
+			br
+			input#css(type='radio' name='fav_language' value='CSS')
+			label(for='css') CSS
+			br
+			input#javascript(type='radio' name='fav_language' value='JavaScript')
+			label(for='javascript') JavaScript
+			button  Fill
+		

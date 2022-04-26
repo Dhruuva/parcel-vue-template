@@ -1,23 +1,31 @@
-5129
-41/home/vaman/apps/2022/parcelApp/src/views1650446760671608193 1
+5140
+41/home/vaman/apps/2022/parcelApp/src/views1650726331095743649 1
+55/home/vaman/apps/2022/parcelApp/src/memo/about_slice.js1650559735567418360 0
+40/home/vaman/apps/2022/parcelApp/src/memo1650555451774883045 1
 56/home/vaman/apps/2022/parcelApp/src/assets/parcel@2x.png1650390875395556127 0
-51/home/vaman/apps/2022/parcelApp/src/assets/main.css1650391635921158519 0
-42/home/vaman/apps/2022/parcelApp/src/assets1650391276359354570 1
-46/home/vaman/apps/2022/parcelApp/src/index.html1650470946083243509 0
-44/home/vaman/apps/2022/parcelApp/src/index.js1650471709495714732 0
-35/home/vaman/apps/2022/parcelApp/src1650393333443487907 1
+51/home/vaman/apps/2022/parcelApp/src/assets/main.css1650725472529292026 0
+42/home/vaman/apps/2022/parcelApp/src/assets1650726219943952473 1
+46/home/vaman/apps/2022/parcelApp/src/sakura.pug1650959831043104974 0
+46/home/vaman/apps/2022/parcelApp/src/index.html1650727387514292402 0
+44/home/vaman/apps/2022/parcelApp/src/index.js1650563406594727747 0
+35/home/vaman/apps/2022/parcelApp/src1650726331095743649 1
 44/home/vaman/apps/2022/parcelApp/package.json1650469407697191725 0
-55/home/vaman/apps/2022/parcelApp/dist/market.f8ddeb53.js1650470047146699608 0
-59/home/vaman/apps/2022/parcelApp/dist/index.4a0c1c7e.css.map1650470047118699573 0
+55/home/vaman/apps/2022/parcelApp/dist/market.f8ddeb53.js1650727305902296241 0
+59/home/vaman/apps/2022/parcelApp/dist/index.4a0c1c7e.css.map1650727305906296243 0
 62/home/vaman/apps/2022/parcelApp/dist/parcelApp.59712999.js.map1650391216367383220 0
 54/home/vaman/apps/2022/parcelApp/dist/index.075a5bef.js1650391488048527210 0
-59/home/vaman/apps/2022/parcelApp/dist/parcel@2x.bc4fd262.png1650470047118699573 0
-58/home/vaman/apps/2022/parcelApp/dist/index.975ef6c8.js.map1650470827759209652 0
-55/home/vaman/apps/2022/parcelApp/dist/index.4a0c1c7e.css1650470047110699564 0
+59/home/vaman/apps/2022/parcelApp/dist/parcel@2x.bc4fd262.png1650727305902296241 0
+58/home/vaman/apps/2022/parcelApp/dist/index.975ef6c8.js.map1650472229376005668 0
+55/home/vaman/apps/2022/parcelApp/dist/index.4a0c1c7e.css1650727305902296241 0
 58/home/vaman/apps/2022/parcelApp/dist/index.075a5bef.js.map1650391488052527230 0
+59/home/vaman/apps/2022/parcelApp/dist/sakura.74a68e6d.js.map1650727305906296243 0
 58/home/vaman/apps/2022/parcelApp/dist/about.95bccf2d.js.map1650470047150699613 0
-59/home/vaman/apps/2022/parcelApp/dist/market.f8ddeb53.js.map1650470047150699613 0
-47/home/vaman/apps/2022/parcelApp/dist/index.html1650470946191243536 0
+60/home/vaman/apps/2022/parcelApp/dist/sakura.14454fc4.css.map1650727305906296243 0
+59/home/vaman/apps/2022/parcelApp/dist/market.f8ddeb53.js.map1650727305906296243 0
+47/home/vaman/apps/2022/parcelApp/dist/index.html1650727305902296241 0
+48/home/vaman/apps/2022/parcelApp/dist/sakura.html1650959831779109626 0
+54/home/vaman/apps/2022/parcelApp/dist/about.975ef6c8.js1650727305902296241 0
+55/home/vaman/apps/2022/parcelApp/dist/sakura.74a68e6d.js1650727305902296241 0
 59/home/vaman/apps/2022/parcelApp/node_modules/csso/README.md499162500000000000 0
 66/home/vaman/apps/2022/parcelApp/node_modules/csso/dist/csso.min.js499162500000000000 0
 62/home/vaman/apps/2022/parcelApp/node_modules/csso/dist/csso.js499162500000000000 0
@@ -865,6 +873,7 @@
 83/home/vaman/apps/2022/parcelApp/node_modules/caniuse-lite/data/features/temporal.js499162500000000000 0
 96/home/vaman/apps/2022/parcelApp/node_modules/@babel/highlight/node_modules/color-name/.npmignore1435528315000000000 0
 86/home/vaman/apps/2022/parcelApp/node_modules/caniuse-lite/data/features/shadowdomv1.js499162500000000000 0
+56/home/vaman/apps/2022/parcelApp/dist/sakura.14454fc4.css1650727305902296241 0
 93/home/vaman/apps/2022/parcelApp/node_modules/caniuse-lite/data/features/screen-orientation.js499162500000000000 0
 60/home/vaman/apps/2022/parcelApp/node_modules/xxhash-wasm/esm1650374704304078861 1
 91/home/vaman/apps/2022/parcelApp/node_modules/caniuse-lite/data/features/speech-synthesis.js499162500000000000 0
@@ -882,7 +891,7 @@
 85/home/vaman/apps/2022/parcelApp/node_modules/caniuse-lite/data/features/word-break.js499162500000000000 0
 89/home/vaman/apps/2022/parcelApp/node_modules/caniuse-lite/data/features/xml-serializer.js499162500000000000 0
 84/home/vaman/apps/2022/parcelApp/node_modules/caniuse-lite/data/features/dommatrix.js499162500000000000 0
-48/home/vaman/apps/2022/parcelApp/dist/market.html1650470047154699617 0
+48/home/vaman/apps/2022/parcelApp/dist/market.html1650727305902296241 0
 114/home/vaman/apps/2022/parcelApp/node_modules/@parcel/node-resolver-core/test/fixture/packages/source-alias/dist.js499162500000000000 0
 85/home/vaman/apps/2022/parcelApp/node_modules/@parcel/utils/src/dependency-location.js499162500000000000 0
 97/home/vaman/apps/2022/parcelApp/node_modules/@swc/helpers/lib/_class_private_field_destructure.js1647430283000000000 0
@@ -1024,6 +1033,7 @@
 85/home/vaman/apps/2022/parcelApp/node_modules/@parcel/package-manager/lib/index.js.map499162500000000000 0
 79/home/vaman/apps/2022/parcelApp/node_modules/caniuse-lite/data/features/json.js499162500000000000 0
 75/home/vaman/apps/2022/parcelApp/node_modules/@parcel/cache/lib/LMDBCache.js499162500000000000 0
+53/home/vaman/apps/2022/parcelApp/src/assets/sakura.css1650726219943952473 0
 74/home/vaman/apps/2022/parcelApp/node_modules/@parcel/transformer-image/lib1650374703952079057 1
 60/home/vaman/apps/2022/parcelApp/node_modules/json5/README.md499162500000000000 0
 63/home/vaman/apps/2022/parcelApp/node_modules/acorn/CHANGELOG.md499162500000000000 0
@@ -3190,7 +3200,7 @@
 80/home/vaman/apps/2022/parcelApp/node_modules/@parcel/runtime-js/src/JSRuntime.js499162500000000000 0
 72/home/vaman/apps/2022/parcelApp/node_modules/bluebird/js/release/each.js499162500000000000 0
 61/home/vaman/apps/2022/parcelApp/node_modules/@vue/runtime-dom1650469403069172739 1
-47/home/vaman/apps/2022/parcelApp/dist/about.html1650470047154699617 0
+47/home/vaman/apps/2022/parcelApp/dist/about.html1650727305902296241 0
 71/home/vaman/apps/2022/parcelApp/node_modules/@parcel/markdown-ansi/test1650374704344078839 1
 102/home/vaman/apps/2022/parcelApp/node_modules/@parcel/runtime-js/src/helpers/browser/prefetch-loader.js499162500000000000 0
 93/home/vaman/apps/2022/parcelApp/node_modules/@parcel/runtime-js/src/helpers/get-worker-url.js499162500000000000 0
@@ -3415,7 +3425,7 @@
 81/home/vaman/apps/2022/parcelApp/node_modules/@parcel/diagnostic/lib/diagnostic.js499162500000000000 0
 135/home/vaman/apps/2022/parcelApp/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-no-engines/package.json499162500000000000 0
 123/home/vaman/apps/2022/parcelApp/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-bad-engines1650374706448077675 1
-54/home/vaman/apps/2022/parcelApp/dist/index.975ef6c8.js1650470827755209650 0
+54/home/vaman/apps/2022/parcelApp/dist/index.975ef6c8.js1650472229372005667 0
 136/home/vaman/apps/2022/parcelApp/node_modules/@parcel/core/test/fixtures/plugins/node_modules/parcel-transformer-bad-engines/package.json499162500000000000 0
 81/home/vaman/apps/2022/parcelApp/node_modules/css-tree/lib/lexer/prepare-tokens.js499162500000000000 0
 68/home/vaman/apps/2022/parcelApp/node_modules/@trysound/sax/README.md499162500000000000 0
@@ -3527,7 +3537,7 @@
 87/home/vaman/apps/2022/parcelApp/node_modules/caniuse-lite/data/features/transforms2d.js499162500000000000 0
 69/home/vaman/apps/2022/parcelApp/node_modules/@parcel/watcher/src/unix1650374705216078357 1
 99/home/vaman/apps/2022/parcelApp/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/mtest_remap.c499162500000000000 0
-36/home/vaman/apps/2022/parcelApp/dist1650470946191243536 1
+36/home/vaman/apps/2022/parcelApp/dist1650959831779109626 1
 77/home/vaman/apps/2022/parcelApp/node_modules/type-fest/source/promisable.d.ts499162500000000000 0
 69/home/vaman/apps/2022/parcelApp/node_modules/terser/dist/package.json499162500000000000 0
 108/home/vaman/apps/2022/parcelApp/node_modules/@parcel/workers/test/integration/workerfarm/shared-reference.js499162500000000000 0
@@ -3984,7 +3994,7 @@
 67/home/vaman/apps/2022/parcelApp/node_modules/@vue/compiler-ssr/dist1650393855764862297 1
 87/home/vaman/apps/2022/parcelApp/node_modules/@vue/compiler-ssr/dist/compiler-ssr.cjs.js1649931130000000000 0
 56/home/vaman/apps/2022/parcelApp/node_modules/htmlparser21650374711372074952 1
-46/home/vaman/apps/2022/parcelApp/src/about.html1650390578303729175 0
+46/home/vaman/apps/2022/parcelApp/src/about.html1650726879802698716 0
 67/home/vaman/apps/2022/parcelApp/node_modules/css-tree/data/index.js499162500000000000 0
 72/home/vaman/apps/2022/parcelApp/node_modules/resolve/test/filter_sync.js499162500000000000 0
 70/home/vaman/apps/2022/parcelApp/node_modules/htmlparser2/lib/Parser.js499162500000000000 0
@@ -4079,7 +4089,7 @@
 71/home/vaman/apps/2022/parcelApp/node_modules/svgo/plugins/mergePaths.js499162500000000000 0
 77/home/vaman/apps/2022/parcelApp/node_modules/svgo/plugins/convertTransform.js499162500000000000 0
 65/home/vaman/apps/2022/parcelApp/node_modules/get-intrinsic/.nycrc499162500000000000 0
-49/home/vaman/apps/2022/parcelApp/src/views/App.vue1650470174978837927 0
+49/home/vaman/apps/2022/parcelApp/src/views/App.vue1650563621794594500 0
 74/home/vaman/apps/2022/parcelApp/node_modules/svgo/plugins/removeDoctype.js499162500000000000 0
 77/home/vaman/apps/2022/parcelApp/node_modules/svgo/plugins/_applyTransforms.js499162500000000000 0
 81/home/vaman/apps/2022/parcelApp/node_modules/svgo/plugins/cleanupNumericValues.js499162500000000000 0
@@ -4598,7 +4608,7 @@
 89/home/vaman/apps/2022/parcelApp/node_modules/@babel/types/scripts/generators/constants.js456789000000000000 0
 97/home/vaman/apps/2022/parcelApp/node_modules/@babel/types/scripts/generators/typescript-legacy.js456789000000000000 0
 97/home/vaman/apps/2022/parcelApp/node_modules/@babel/highlight/node_modules/color-convert/route.js499162500000000000 0
-46/home/vaman/apps/2022/parcelApp/src/market.pug1650390750319625622 0
+46/home/vaman/apps/2022/parcelApp/src/market.pug1650726940022583146 0
 79/home/vaman/apps/2022/parcelApp/node_modules/xxhash-wasm/cjs/xxhash-wasm.js.map499162500000000000 0
 71/home/vaman/apps/2022/parcelApp/node_modules/@babel/types/scripts/utils1650390310719917016 1
 85/home/vaman/apps/2022/parcelApp/node_modules/@babel/types/scripts/utils/lowerFirst.js456789000000000000 0
@@ -5037,6 +5047,7 @@
 77/home/vaman/apps/2022/parcelApp/node_modules/htmlnano/docs/docs/030-config.md499162500000000000 0
 64/home/vaman/apps/2022/parcelApp/node_modules/pug-runtime/wrap.js499162500000000000 0
 67/home/vaman/apps/2022/parcelApp/node_modules/color-convert/route.js499162500000000000 0
+58/home/vaman/apps/2022/parcelApp/dist/about.975ef6c8.js.map1650727305906296243 0
 102/home/vaman/apps/2022/parcelApp/node_modules/@parcel/workers/test/integration/workerfarm/master-sum.js499162500000000000 0
 67/home/vaman/apps/2022/parcelApp/node_modules/color-convert/index.js499162500000000000 0
 76/home/vaman/apps/2022/parcelApp/node_modules/@vue/compiler-core/package.json1650393856148861100 0
