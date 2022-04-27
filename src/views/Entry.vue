@@ -1,19 +1,24 @@
 <template lang="pug">
-div
-  h5  {{msg}}
+div#app3
+	h5  {{msg}}
+		FontAwesomeIcon(icon="coffee")
+	Icon(icon="tabler:tree")
 </template>
 
 
 <script>
- 
-  export default {
-    
-    data() {
-      return {
-        msg: "Hello second",
-      };
-    },
-  };
+
+	export default {
+		components: {
+		 Icon,
+		 FontAwesomeIcon:'font-awesome-icon'
+		},
+		data() {
+			return {
+				msg: "Hello second",
+			};
+		},
+	};
 </script>
 <style scoped>
 h5 {

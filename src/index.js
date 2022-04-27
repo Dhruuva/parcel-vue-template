@@ -7,5 +7,5 @@ import Entry from "./views/Entry.vue";
 
 const app = createApp(App);
 app.component('button-counter', ButtonCounter);
- app.component('entry', Entry);
+app.component('entry', Entry);
 app.mount("#app1");
