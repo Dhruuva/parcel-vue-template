@@ -3,7 +3,7 @@ div#app3
 	h5  {{msg}}
 		font-awesome-icon(icon="user-secret")
 		Icon(icon="tabler:package" color="silver" height="64")
-	Icon(icon="tabler:tree" color="blue" height="48")
+	Icon(icon="tabler:tree" color="blue" )
 </template>
 
 
