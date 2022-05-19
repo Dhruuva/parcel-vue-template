@@ -1,13 +1,13 @@
 <template lang="pug">
 div
   h1  This is the app {{name}}
-  ButtonCounter
-  p Next
+  ButtonCounter( count='25' )
+  p Next component
   Entry
 </template>
 
 
-<script>
+<script type="module">
   import ButtonCounter from "./cbtn.vue";
   import Entry from "./Entry.vue";
   export default {
@@ -17,6 +17,7 @@ div
     data() {
       return {
         name: "Vue",
+
       };
     },
   };

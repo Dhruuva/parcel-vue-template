@@ -12,13 +12,19 @@ div#my-app
 		},
 		data() {
 			return {
-				msg: "Hello second",
+				stuf: [
+				{id:1,page:"index.html",  name:"Home" ico:"ic:baseline-account-balance"},
+				{id:2,page:"about.html",  name:"About" ico:"ic:baseline-contact-support"},
+				{id:3,page:"market.html", name:"Market" ico:"ic:sharp-barcode"},
+				{id:4,page:"sakura.html",  name:"Sakura" ico:"ic:round-compost"},
+				]
+
 			};
 		},
 	};
 </script>
 <style scoped>
-h5 {
+#my-app {
 	color: red;
 	background-color: tomato;
 	padding: 1rem;
