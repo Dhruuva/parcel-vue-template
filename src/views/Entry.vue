@@ -1,7 +1,6 @@
 <template lang="pug">
 div#app3
 	h5  {{msg}}
-		font-awesome-icon(icon="user-secret")
 		Icon(icon="tabler:package" color="silver" height="64")
 	Icon(icon="tabler:tree" color="blue" )
 </template>
@@ -9,14 +8,11 @@ div#app3
 
 <script>
 	import { Icon } from '@iconify/vue';
-	import { library } from '@fortawesome/fontawesome-svg-core'
-  import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
-	import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-	library.add(faUserSecret)
+	
 	export default {
 		components: {
 		 Icon,
-		 FontAwesomeIcon:'font-awesome-icon'
+		
 		},
 		data() {
 			return {
@@ -25,6 +21,7 @@ div#app3
 		},
 	};
 </script>
+
 <style scoped>
 h5 {
 	color: red;

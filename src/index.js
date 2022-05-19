@@ -1,4 +1,8 @@
 
+//Vue.config.devtools = true
+// Before you create app
+//Vue.config.devtools = process.env.NODE_ENV === 'development'
+
 
 import { createApp } from "vue";
 import App from "./views/App.vue";
