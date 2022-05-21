@@ -1,35 +1,48 @@
 <template lang="pug">
-div#my-app
-	Icon(icon="tabler:tree" color="blue" height="48")
+ul#nav
+	li(v-for="n in stuff" :key="n.id")
+		a(:href="n.page") {{n.name}}
 </template>
 
 
 <script>
 	import { Icon } from '@iconify/vue';
 	export default {
+		props : {
+			active: { type: String, default: "1" },
+		},
 		components: {
 		 Icon
 		},
 		data() {
 			return {
-				stuf: [
-				{id:1,page:"index.html",  name:"Home" ico:"ic:baseline-account-balance"},
-				{id:2,page:"about.html",  name:"About" ico:"ic:baseline-contact-support"},
-				{id:3,page:"market.html", name:"Market" ico:"ic:sharp-barcode"},
-				{id:4,page:"sakura.html",  name:"Sakura" ico:"ic:round-compost"},
+				stuff: [
+					{id:1,page:"index.html",  name:"Home", ico:"ic:baseline-account-balance"},
+					{id:2,page:"about.html",  name:"About", ico:"ic:baseline-contact-support"},
+					{id:3,page:"market.html", name:"Market", ico:"ic:sharp-barcode"},
+					{id:4,page:"sakura.html", name:"Sakura", ico:"ic:round-compost"},
 				]
 
 			};
 		},
+		created() {
+			
+			console.log(" active is=",this.active)
+		},
+		mounted(){
+
+		}
+
 	};
 </script>
 <style scoped>
-#my-app {
+@import '.././assets/main.css';	
+#nav1 {
 	color: red;
 	background-color: tomato;
 	padding: 1rem;
 	margin: 1rem;
-	display: inline-block;
+	display: flex;
 }	
 h5:hover{
 	color: silver;
