@@ -2,6 +2,7 @@
 ul#nav
 	li(v-for="n in stuff" :key="n.id")
 		a(:href="n.page") {{n.name}}
+			Icon(:icon="n.ico" color="silver" height="44")
 </template>
 
 
@@ -36,18 +37,6 @@ ul#nav
 	};
 </script>
 <style scoped>
-@import '.././assets/main.css';	
-#nav1 {
-	color: red;
-	background-color: tomato;
-	padding: 1rem;
-	margin: 1rem;
-	display: flex;
-}	
-h5:hover{
-	color: silver;
-	background-color: fuchsia;
-	font-weight: 500;
-	font-size: 14px;
-}
+@import '.././assets/header.css';	
+
 </style>

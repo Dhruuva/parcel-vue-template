@@ -13,22 +13,7 @@ nav {
    margin: 5px;
    display: inline-block;
 }*/
-#nav li {
-   background: azure;
-   color: green;
-   margin: 15px;
-   padding: 5px;
-   display: inline-block;
-   font-size: 28;
-   font-weight: 700;
-   border-style: groove;
-   border-radius: 5px;
-}
 
-header {
-	background-color: #ff7575;
-  
-}
 
 article {
   float: left;
