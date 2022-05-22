@@ -1,13 +1,13 @@
 <template lang="pug">
-div
+div#app
   h1  This is the app {{name}}
-  ButtonCounter( count='25' )
+  ButtonCounter( count='27' )
   p Next component
   Entry
 </template>
 
 
-<script type="module">
+<script >
   import ButtonCounter from "./cbtn.vue";
   import Entry from "./Entry.vue";
   export default {

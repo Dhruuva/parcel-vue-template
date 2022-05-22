@@ -2,9 +2,9 @@
   "name": "parcelApp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "parcel src/*.pug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

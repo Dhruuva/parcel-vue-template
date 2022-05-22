@@ -1,10 +1,10 @@
-#nav li {
+#mynav li {
    background: azure;
    color: green;
    margin: 15px;
    padding: 5px;
    display: inline-block;
-   font-size: 28;
+   font-size: 24;
    font-weight: 700;
    border-style: groove;
    border-radius: 5px;
