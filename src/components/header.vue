@@ -1,8 +1,9 @@
 <template lang="pug">
-ul#nav
-	li(v-for="n in stuff" :key="n.id")
-		a(:href="n.page") {{n.name}}
-			Icon(:icon="n.ico" color="silver" height="44")
+header
+	ul#nav
+		li(v-for="n in stuff" :key="n.id")
+			a(:href="n.page") {{n.name}}
+				Icon(:icon="n.ico" color="silver" height="44")
 </template>
 
 
