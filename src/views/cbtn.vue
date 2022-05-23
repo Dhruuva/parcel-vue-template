@@ -1,7 +1,7 @@
 <script type="module">
 export default {
 	props: {
-	    count: { type: String, default: 100 },
+	    count: { type: String, default: "100" },
 
 	},
 	data() {

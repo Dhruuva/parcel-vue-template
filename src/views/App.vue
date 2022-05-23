@@ -1,5 +1,5 @@
 <template lang="pug">
-div#app
+div
   h1  This is the app {{name}}
   ButtonCounter( count='27' )
   p Next component

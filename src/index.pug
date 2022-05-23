@@ -9,13 +9,13 @@ html(lang='en')
     link(rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css')
     link(rel='stylesheet' href='assets/main.css')
     script(type='module' src='./index.js')
+    script(type='module' src='./components/header.js')  
   body
-    include _header.pug
     noscript
       strong
         | We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.
     header#mynav(active='2')
-    article#app
+    div(id="ap" count="45")
     p We have no header
     p Connection to the HMR server was lost2 
     // built files will be auto injected

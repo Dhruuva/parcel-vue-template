@@ -8,8 +8,10 @@ html(lang='en')
 		link(rel="stylesheet" href="./assets/sakura.css" type="text/css")
 	body
 		include _script.pug
+		include _header.pug
+		header#mynav(active='6')
 		h1 sakura: a minimal classless css framework / theme.
-		div#app3
+		div(id="app3" count='4')
 			
 		form
 			input#html(type='radio' name='fav_language' value='HTML')
