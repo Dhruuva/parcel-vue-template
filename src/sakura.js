@@ -12,7 +12,8 @@ const app = createApp({
 	components:{ 'button-counter': ButtonCounter,
 				 'my-header': Header,
 	}
-});
+})
+
 
 app.mount("#app3");
 
