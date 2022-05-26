@@ -9,20 +9,19 @@ html(lang='en')
 	body
 		include _script.pug
 		div#app3
-			my-header( id="mynav" active='6')
-
-			h1 sakura: a minimal classless css framework / theme.
-			
-			button-counter(count="5")
-				
-			form
-				input#html(type='radio' name='fav_language' value='HTML')
-				label(for='html') HTML
-				br
-				input#css(type='radio' name='fav_language' value='CSS')
-				label(for='css') CSSggg
-				br
-				input#javascript(type='radio' name='fav_language' value='JavaScript')
-				label(for='javascript') JavaScript
-				button  Fill
+			my-header( id="mynav" active='4')
+			h3 sakura a minimal classless css framework / theme.
+			article
+				button-counter(count="5")
+			article
+				form
+					input#html(type='radio' name='fav_language' value='HTML')
+					label(for='html') HTML
+					br
+					input#css(type='radio' name='fav_language' value='CSS')
+					label(for='css') CSS
+					br
+					input#javascript(type='radio' name='fav_language' value='JavaScript')
+					label(for='javascript') JavaScript
+					button(type="reset")  Fill
 		

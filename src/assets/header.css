@@ -1,8 +1,29 @@
+@keyframes animate {
+        0% {
+          background-position: -500%;
+        }
+        100% {
+          background-position: 500%;
+        }
+}
+
 @keyframes rotate {
   0%   {transform: rotate(-1deg);}
   25%  {transform: rotate(-2deg);}
   50%  {transform: rotate(-1deg);}
   100% {transform: rotate(0deg);}
+}
+
+#mynav img {
+   background: transparent;
+   height: 50px;
+   width:50px ;
+   margin :15px;
+   box-shadow: 3px 2px 4px 3px yellowgreen;
+   border-radius: 20%;
+   background-color: azure;
+   padding-top: 5px;
+
 }
 
 #mynav li {
@@ -28,20 +49,26 @@
 
 
 }
+#mynav ul {
+ padding: 1px;
+ margin-top: 1rem; 
+ margin-bottom: 14px; 
+}
 
 #mynav .active  {
-   color: gray;
+   color: yellowgreen;
    border-style: inset;
    background: ghostwhite;
    text-shadow: azure 3px 1px 12px;
 }
+
 #mynav .active a {
-   color: gray;
+   color: yellowgreen;
   
 }
 #mynav li a:hover{
    text-decoration: underline;
-   
+
 }
 #mynav .active a:hover{
    text-decoration: unset;
@@ -56,6 +83,7 @@
    padding: 0.1em 0.2em;
    text-decoration: none;
    white-space: nowrap;
+   animation: animate  0.5s infinite;
 }
 
 #mynav li Icon {
@@ -72,6 +100,7 @@ header {
    padding: 0.1em 0.1em;
    box-shadow: 1px 2px 8px 3px darkslategray;
    border-radius: 13px;
-  
+   display: flex;
+
 }
 

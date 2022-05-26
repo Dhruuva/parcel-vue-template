@@ -1,5 +1,6 @@
 <template lang="pug">
 header
+	img(src="../assets/parcel@2x.png")
 	ul#nav
 		li(v-for="n in stuff" :key="n.id" :class="{ active: n.isActive }")
 			Icon(:icon="n.ico"  height="28")

@@ -18,10 +18,15 @@ html(lang='en')
     //- include _header.pug    
     div#app
       my-header(id="mynav" active="1")
-      p We have no header
-      my-entry
-      p Connection to the HMR server was lost2 
-    // built files will be auto injected
+      div.grid-container
+        div.grid-item.item1 
+          h1 Welcome and explore this.
+        div.grid-item.item2 
+          p Connection to the HMR server was lost2 
+        div.grid-item.item3 
+          my-entry
+        div.grid-item.item4 4
+        div.grid-item.item5
     
     
 
