@@ -1,16 +1,77 @@
+@keyframes rotate {
+  0%   {transform: rotate(-1deg);}
+  25%  {transform: rotate(-2deg);}
+  50%  {transform: rotate(-1deg);}
+  100% {transform: rotate(0deg);}
+}
+
 #mynav li {
    background: azure;
-   color: green;
-   margin: 15px;
-   padding: 5px;
-   display: inline-block;
-   font-size: 24;
+   color: forestgreen;
+   margin: 5px;
+   display: inline-flex;
+   font-size: 22;
    font-weight: 700;
    border-style: groove;
-   border-radius: 5px;
+   border-radius: 5px 5px;
+   padding: 5px 5px 5px 0.5em;
+   transition: box-shadow 0.5s;
+}
+#mynav li:hover{
+   border-style: outset;
+   box-shadow: 1px 2px 8px 3px greenyellow;
+}
+#mynav .active:hover{
+  box-shadow: 1px 2px 8px 3px darkgreen;
+   border-style: inset;
+   top: 20px;
+
+
+}
+
+#mynav .active  {
+   color: gray;
+   border-style: inset;
+   background: ghostwhite;
+   text-shadow: azure 3px 1px 12px;
+}
+#mynav .active a {
+   color: gray;
+  
+}
+#mynav li a:hover{
+   text-decoration: underline;
+   
+}
+#mynav .active a:hover{
+   text-decoration: unset;
+   animation: rotate 0.5s infinite;
+   
+}
+#mynav li a {
+   font-display: block;
+   color: forestgreen;
+   float: right;
+   display: block;
+   padding: 0.1em 0.2em;
+   text-decoration: none;
+   white-space: nowrap;
+}
+
+#mynav li Icon {
+   font-display: block;
+   color: red;
+   float: right;
+   display: block;
+   padding-left: 0.1em;
+   
 }
 
 header {
-	background-color: darkgreen;
+	background-color: seagreen;
+   padding: 0.1em 0.1em;
+   box-shadow: 1px 2px 8px 3px darkslategray;
+   border-radius: 13px;
   
 }
+

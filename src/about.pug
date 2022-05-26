@@ -6,10 +6,10 @@ html(lang='en')
 		title About
 		link(rel='stylesheet' href='assets/main.css')
 		//- script(type='module' src='./index.js')
-		script(type='module' src='./components/header.js')
+		script(type='module' src='./about.js')
 	body
-		//- include _header.pug
-		header#mynav(active='6')
-		h1 About page also use the vue comp
-		h2  see it above
+		div#app
+			my-header#mynav(active='2')
+			h1 About page also use the vue comp
+			h2  see it above
 		//- div(id="ap")
