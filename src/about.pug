@@ -5,11 +5,21 @@ html(lang='en')
 		meta(name='viewport' content='width=device-width, initial-scale=1.0')
 		title About
 		link(rel='stylesheet' href='assets/main.css')
+		link(rel='stylesheet' href='assets/layout.styl')
 		//- script(type='module' src='./index.js')
 		script(type='module' src='./about.js')
 	body
 		div#app
 			my-header#mynav(active='2')
-			h1 About page also use the vue comp
-			h2  see it above
+			div.container
+				div.cell
+					h1 Demonstration flex usage
+				div.cell
+					h2  see it above
+				div.cell 3
+				div.cell 4
+					h1 With flex content is rulled layout.
+				div.cell 5
+					h1 Fresh will be constantly dissappeared
+				div.cell 6
 		//- div(id="ap")

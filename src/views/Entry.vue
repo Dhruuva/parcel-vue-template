@@ -1,8 +1,10 @@
 <template lang="pug">
-div#app3
-	h5  {{msg}}
-		Icon(icon="tabler:package" color="silver" height="64")
-	Icon(icon="tabler:tree" color="blue" )
+div#app
+	.grid-contaner
+		.cell {{title}}
+		.cell
+			Icon(:icon="iconame" color="silver" :height="icoSize")
+	
 </template>
 
 
@@ -10,6 +12,11 @@ div#app3
 	import { Icon } from '@iconify/vue';
 	
 	export default {
+		props:{
+			icoName:{default:"package",type: String},
+			icoSize:{default:24,type: Number},
+			title:{default:"This demo component",type: String},
+		},
 		components: {
 		 Icon,
 		
@@ -19,21 +26,34 @@ div#app3
 				msg: "Hello second",
 			};
 		},
+		created(){
+			console.log(" icoName >>",this.icoName)
+		},
+		computed:{
+			iconame(){ return "tabler:"+this.icoName}
+			
+		}
 	};
 </script>
 
-<style scoped>
-h5 {
-	color: red;
-	background-color: tomato;
-	padding: 1rem;
-	margin: 1rem;
-	display: inline-block;
-}	
-h5:hover{
-	color: silver;
-	background-color: fuchsia;
-	font-weight: 500;
-	font-size: 14px;
-}
+<style  lang='stylus' scoped>
+
+h5
+	color red 
+	background-color tomato
+	padding 1rem
+	margin 1rem
+	display inline-block
+	&:hover
+		color silver
+		background-color fuchsia
+		font-weight 500
+		font-size: 1rem;
+.grid-contaner
+	padding 1rem
+	display grid
+	color red	
+.cell
+	font-size  0.5rem
+	padding 1rem
 </style>

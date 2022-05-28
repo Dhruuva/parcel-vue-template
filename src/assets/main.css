@@ -29,7 +29,7 @@ article {
 }
 
 .grid-container {
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   display: grid;
   gap: 5px;
   background-color: dimgrey;
@@ -41,7 +41,8 @@ article {
   background-color: azure;
   text-align: center;
   padding: 10px;
-  box-shadow: 4px 2px 2px 1px green;
+  box-shadow: 1px 2px 5px 1px green;
+  color: green;
 }
 
 .item1 {
