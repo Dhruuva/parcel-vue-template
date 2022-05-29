@@ -1,9 +1,10 @@
 <template lang="pug">
-div#app
+div#v-logo(ref="v_logo")
 	.grid-contaner
-		.cell {{title}}
-		.cell
-			Icon(:icon="iconame" color="silver" :height="icoSize")
+		.grid-item.textCell
+			h1 {{title}}
+		.grid-item.icoCell
+			Icon( :icon="iconame" :color="color" :height="isize")
 	
 </template>
 
@@ -13,9 +14,11 @@ div#app
 	
 	export default {
 		props:{
-			icoName:{default:"package",type: String},
-			icoSize:{default:24,type: Number},
+			
+			isize:{default:14,type: [Number,String]},
 			title:{default:"This demo component",type: String},
+			icos:{default:"package",type: String},
+			fs:{default:"1em",type: String},
 		},
 		components: {
 		 Icon,
@@ -24,20 +27,24 @@ div#app
 		data() {
 			return {
 				msg: "Hello second",
+				color:"blue"
 			};
 		},
-		created(){
-			console.log(" icoName >>",this.icoName)
+		mounted(){
+			this.$refs.v_logo.style.setProperty('--color', this.color);
+			this.$refs.v_logo.style.setProperty('--fs', this.fs);
+			console.log( this.isize," icoName >>",this.icos)
 		},
 		computed:{
-			iconame(){ return "tabler:"+this.icoName}
+			iconame(){ return "tabler:"+this.icos}
 			
 		}
 	};
 </script>
 
 <style  lang='stylus' scoped>
-
+$colorFont = var(--color);
+$fontSize = var(--fs);
 h5
 	color red 
 	background-color tomato
@@ -49,11 +56,28 @@ h5
 		background-color fuchsia
 		font-weight 500
 		font-size: 1rem;
-.grid-contaner
-	padding 1rem
-	display grid
-	color red	
-.cell
-	font-size  0.5rem
-	padding 1rem
+#v-logo		
+	.grid-contaner
+		display grid
+		color red
+		height auto
+		border 1em solid $colorFont
+		border-radius 1em
+		
+	.grid-item
+		text-align: center
+		padding: 1px
+		
+	.textCell
+		color: $colorFont;
+		font-size  $fontSize
+		grid-column 1 / span 2
+		grid-row 1 
+		justify-content center
+	.icoCell
+		font-size  0.5rem
+		grid-column 3 
+		grid-row 1
+		padding 1rem
+		justify-content center 	
 </style>
