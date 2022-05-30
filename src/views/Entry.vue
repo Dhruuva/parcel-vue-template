@@ -1,9 +1,9 @@
 <template lang="pug">
 div#v-logo(ref="v_logo")
-	.grid-contaner
-		.grid-item.textCell
+	.v-grid-contaner
+		.v-grid-item.v-textCell
 			h1 {{title}}
-		.grid-item.icoCell
+		.v-grid-item.v-icoCell
 			Icon( :icon="iconame" :color="color" :height="isize")
 	
 </template>
@@ -27,7 +27,7 @@ div#v-logo(ref="v_logo")
 		data() {
 			return {
 				msg: "Hello second",
-				color:"blue"
+				color:"red"
 			};
 		},
 		mounted(){
@@ -56,28 +56,28 @@ h5
 		background-color fuchsia
 		font-weight 500
 		font-size: 1rem;
-#v-logo		
-	.grid-contaner
+#v-logo 		
+	.v-grid-contaner
 		display grid
-		color red
-		height auto
-		border 1em solid $colorFont
-		border-radius 1em
-		
-	.grid-item
-		text-align: center
-		padding: 1px
-		
-	.textCell
-		color: $colorFont;
+		color $colorFont
 		font-size  $fontSize
+		height auto
+		border 0.2em solid $colorFont
+		border-radius 0.5em
+		background-color azure
+	.v-grid-item
+		text-align center
+		justify-content center
+	.v-textCell
+		text-align right 
+		line-height 1.1
+		text-transform uppercase
 		grid-column 1 / span 2
 		grid-row 1 
-		justify-content center
-	.icoCell
-		font-size  0.5rem
+		text-shadow: 2px 2px;
+	.v-icoCell
+		padding 0.5em
 		grid-column 3 
 		grid-row 1
-		padding 1rem
-		justify-content center 	
+		
 </style>
