@@ -19,6 +19,7 @@ div#v-logo(ref="v_logo")
 			title:{default:"This demo component",type: String},
 			icos:{default:"package",type: String},
 			fs:{default:"1em",type: String},
+			color:{default:"#FF0000",type: String},
 		},
 		components: {
 		 Icon,
@@ -26,8 +27,8 @@ div#v-logo(ref="v_logo")
 		},
 		data() {
 			return {
-				msg: "Hello second",
-				color:"red"
+				msg: "Hello second"
+				
 			};
 		},
 		mounted(){
@@ -45,6 +46,7 @@ div#v-logo(ref="v_logo")
 <style  lang='stylus' scoped>
 $colorFont = var(--color);
 $fontSize = var(--fs);
+// $lightcolor = lighten(var(--color), 30);
 h5
 	color red 
 	background-color tomato
@@ -56,15 +58,19 @@ h5
 		background-color fuchsia
 		font-weight 500
 		font-size: 1rem;
-#v-logo 		
+#v-logo 
+	padding 0.5em	
 	.v-grid-contaner
 		display grid
 		color $colorFont
 		font-size  $fontSize
-		height auto
 		border 0.2em solid $colorFont
 		border-radius 0.5em
 		background-color azure
+		min-width 50vh
+		padding .5em
+		&:hover
+			background-color snow
 	.v-grid-item
 		text-align center
 		justify-content center
