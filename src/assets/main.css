@@ -11,7 +11,7 @@ body {
   background-color: snow;
   padding: .5em;
   margin: 1.5em;
- 
+  box-shadow: 6px 1px 61px 6px snow;
 }
 .flex-parent  {
   display: flex;
@@ -38,6 +38,18 @@ body {
   align-self: center;
  
  
+}
+
+.card-sub-for  {
+  line-height: 1em;
+  flex-grow: 1;
+  box-shadow: 1px 1px 1px 1px lightgray;
+  color: green;
+  width: auto;
+  text-align: center;
+  align-self: center;
+  /*padding: 40px 10px 40px 10px;*/
+
 }
 
 /*#nav>ul>li {

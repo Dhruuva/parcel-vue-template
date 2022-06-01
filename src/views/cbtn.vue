@@ -19,6 +19,28 @@ export default {
 
 <template lang="pug">
 div
-	button(@click="cnt++") You clicked me {{ cnt }} times.
-	p {{count}} this test
+	button.button.glow-button(@click="cnt++") {{ cnt }} 
 </template>
+
+<style scoped lang="stylus">
+.button {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: green;
+  border-radius: 9px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+  font-size  3em
+  padding .3em
+  text-align center
+  min-width 100px
+  
+}
+
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+</style>
