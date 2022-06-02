@@ -4,24 +4,18 @@ html(lang='en')
 		meta(charset='UTF-8')
 		meta(name='viewport' content='width=device-width, initial-scale=1.0')
 		title Market
+		link(rel='stylesheet' href='assets/layout.styl')
 		link(rel="stylesheet" href="./assets/main.css" type="text/css")
 		link(rel="stylesheet" href="./assets/sakura.css" type="text/css")
 	body
 		include _script.pug
 		div#app3
 			my-header( id="mynav" active='4')
-			h3 sakura a minimal classless css framework / theme.
-			article
+			div.container_two
+				div.on_left
+					img(src="./assets/sakura.jpg" alt="sakura")
+				div.on_right
+					h3 Look with sakura a minimal classless css framework / theme.
+			section
 				button-counter(count="5")
-			article
-				form
-					input#html(type='radio' name='fav_language' value='HTML')
-					label(for='html') HTML
-					br
-					input#css(type='radio' name='fav_language' value='CSS')
-					label(for='css') CSS
-					br
-					input#javascript(type='radio' name='fav_language' value='JavaScript')
-					label(for='javascript') JavaScript
-					button(type="reset")  Fill
 		

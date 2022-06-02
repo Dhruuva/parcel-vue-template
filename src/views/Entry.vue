@@ -1,9 +1,9 @@
 <template lang="pug">
 div#v-logo(ref="v_logo")
-	.v-grid-contaner
-		.v-grid-item.v-textCell
+	div.v-grid-contaner
+		div.v-grid-item.v-textCell
 			h1 {{title}}
-		.v-grid-item.v-icoCell
+		div.v-grid-item.v-icoCell
 			Icon( :icon="iconame" :color="color" :height="isize")
 	
 </template>
@@ -59,7 +59,8 @@ h5
 		font-weight 500
 		font-size: 1rem;
 #v-logo 
-	padding 0.5em	
+	padding 0.5em
+	width auto	
 	.v-grid-contaner
 		display grid
 		color $colorFont
@@ -69,11 +70,10 @@ h5
 		background-color azure
 		min-width 50vh
 		padding .5em
+		width auto
 		&:hover
 			background-color snow
-	.v-grid-item
-		text-align center
-		justify-content center
+	
 	.v-textCell
 		text-align right 
 		line-height 1.1
