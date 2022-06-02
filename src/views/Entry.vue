@@ -1,9 +1,9 @@
 <template lang="pug">
 div#v-logo(ref="v_logo")
 	div.v-grid-contaner
-		div.v-grid-item.v-textCell
+		div.v-textCell
 			h1 {{title}}
-		div.v-grid-item.v-icoCell
+		div.v-icoCell
 			Icon( :icon="iconame" :color="color" :height="isize")
 	
 </template>
