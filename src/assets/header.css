@@ -40,14 +40,15 @@ header:hover{
    border-radius: 20%;
    background-color: azure;
    padding-top: 5px;
-  
-
 }
 .logo{  
-   align-self: flex-start;
-   text-align: left;
    
+   text-align: left;
 }
+.logo:hover{  
+    animation: rotate 0.5s infinite ;
+}
+
 
 #mynav li {
    background: azure;

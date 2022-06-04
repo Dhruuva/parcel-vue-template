@@ -50,6 +50,12 @@ header#mynav
 	};
 </script>
 <style scoped>
-@import '.././assets/header.css';	
+@import '.././assets/header.css';
+@keyframes rotate {
+  0%   {transform: rotate(-1deg);}
+  25%  {transform: rotate(-2deg);}
+  50%  {transform: rotate(-1deg);}
+  100% {transform: rotate(0deg);}
+}	
 
 </style>
