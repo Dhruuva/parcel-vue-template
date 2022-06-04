@@ -4,6 +4,7 @@ import { createApp, ref } from "vue/dist/vue.esm-bundler";
 import Header from "./components/header.vue";
 import Entry from "./views/Entry.vue";
 import ButtonCounter from "./views/cbtn.vue";
+import './assets/main.css';
 const app = createApp({});
 app.component("my-header",Header);
 app.component("my-entry",Entry);

@@ -6,12 +6,18 @@
   "module": "./src/index.js",
   "source": "./src/index.js",
   "scripts": {
-    "start": "parcel src/*.pug -p 7778 --no-cache --host localhost",
+    "start": "parcel src/*.pug src/market.pug -p 7778 --no-cache --host localhost",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "@parcel/transformer-css": {
+    "cssModules": false,
+    "dashedIdents": true,
+    "pattern": "[hash]-[local]"
+    
+  },
   "devDependencies": {
     "@parcel/compressor-brotli": "^2.5.0",
     "@parcel/compressor-gzip": "^2.5.0",
