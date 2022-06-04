@@ -18,15 +18,14 @@ export default {
 </script>
 
 <template lang="pug">
-div
-	button.button.glow-button(@click="cnt++") {{ cnt }} 
+button.button.glow-button(@click="cnt++") {{ cnt }} 
 </template>
 
 <style scoped lang="stylus">
 .button {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.8);
-  background: green;
+  background: inherit;
   border-radius: 9px;
   font-weight: normal;
   text-transform: uppercase;

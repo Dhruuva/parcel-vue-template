@@ -71,19 +71,24 @@ h5
 		min-width 50vh
 		padding .5em
 		width auto
+		transition: all 0.4s ease-in-out;
 		&:hover
 			background-color snow
 	
 	.v-textCell
-		text-align right 
+		text-align center 
 		line-height 1.1
 		text-transform uppercase
 		grid-column 1 / span 2
 		grid-row 1 
 		text-shadow: 2px 2px;
+		&:hover
+			text-shadow 1px 1px 1px
+			transition: all 0.4s ease-in-out;
 	.v-icoCell
 		padding 0.5em
 		grid-column 3 
 		grid-row 1
+		
 		
 </style>
