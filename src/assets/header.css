@@ -14,6 +14,23 @@
   100% {transform: rotate(0deg);}
 }
 
+header {
+   width: auto;
+   background-color: seagreen;
+   padding: 0.1em 0.1em;
+   box-shadow: 1px 2px 8px 3px darkslategray;
+   border-radius: 13px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   transition: all 0.4s ease-in-out;
+
+}
+
+header:hover{
+   box-shadow: 1px 2px 8px 3px yellowgreen;
+
+}
 #mynav img {
    background: transparent;
    height: 50px;
@@ -23,7 +40,13 @@
    border-radius: 20%;
    background-color: azure;
    padding-top: 5px;
+  
 
+}
+.logo{  
+   align-self: flex-start;
+   text-align: left;
+   
 }
 
 #mynav li {
@@ -53,6 +76,9 @@
  padding: 1px;
  margin-top: 1rem; 
  margin-bottom: 14px; 
+ text-align: center;
+ align-self: flex-start;
+ flex-basis: 100%;
 }
 
 #mynav .active  {
@@ -95,12 +121,4 @@
    
 }
 
-header {
-	background-color: seagreen;
-   padding: 0.1em 0.1em;
-   box-shadow: 1px 2px 8px 3px darkslategray;
-   border-radius: 13px;
-   display: flex;
-
-}
 

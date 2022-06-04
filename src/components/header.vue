@@ -1,7 +1,8 @@
 <template lang="pug">
-header
-	img(src="../assets/parcel@2x.png")
-	ul#nav
+header#mynav
+	div.logo
+		img(src="../assets/parcel@2x.png")
+	ul
 		li(v-for="n in stuff" :key="n.id" :class="{ active: n.isActive }")
 			Icon(:icon="n.ico"  height="28")
 			a(:href="n.page") {{n.name}}
@@ -30,8 +31,7 @@ header
 			};
 		},
 		created() {
-			
-			console.log(" active is=",this.active)
+					
 		},
 		mounted(){
      this.setActivePage(this.active)
