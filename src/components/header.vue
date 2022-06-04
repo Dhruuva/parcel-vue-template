@@ -41,7 +41,7 @@ header#mynav
 				this.stuff.forEach(a=>{
 				if (a.id==n)	{a.isActive=true} 
 				else {a.isActive=false};
-				console.log(n, " print header ",a );
+				
 				})
 
 			}

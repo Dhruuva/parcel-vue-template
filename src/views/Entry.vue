@@ -34,7 +34,7 @@ div#v-logo(ref="v_logo")
 		mounted(){
 			this.$refs.v_logo.style.setProperty('--color', this.color);
 			this.$refs.v_logo.style.setProperty('--fs', this.fs);
-			console.log( this.isize," icoName >>",this.icos)
+			
 		},
 		computed:{
 			iconame(){ return "tabler:"+this.icos}

@@ -12,7 +12,7 @@ export default {
 	},
 	created() {
 		this.cnt = this.count
-		console.log(" in cbtn.vue Count is=",this.count)
+		
 	}
 }
 </script>
