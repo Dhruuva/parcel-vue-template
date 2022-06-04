@@ -7,6 +7,7 @@
   "source": "./src/index.js",
   "scripts": {
     "start": "parcel src/*.pug src/market.pug -p 7778 --no-cache --host localhost",
+    "build": "parcel src/*.pug src/market.pug --dist-dir docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
