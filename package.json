@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "alias": {
-    "vue": "vue/dist/vue.global.prod.js"
+    "vue": "vue/dist/vue.global.prod"
     
   },
   "@parcel/transformer-css": {
