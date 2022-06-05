@@ -1,6 +1,6 @@
 globalThis.__VUE_OPTIONS_API__ = true;
 globalThis.__VUE_PROD_DEVTOOLS__ = false;
-import { createApp, ref } from "vue/dist/vue.esm-bundler";
+import { createApp, ref } from "vue";
 import Header from "./components/header.vue";
 import Entry from "./components/Entry.vue";
 import ButtonCounter from "./components/cbtn.vue";

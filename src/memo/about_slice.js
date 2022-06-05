@@ -14,7 +14,7 @@ function list() {
   console.log(typeof arguments )
   return Array.prototype.slice.call(arguments)
   
-  //return arguments.slice()
+  //return arguments.slice() http-server -p 8686
 }
 
 let list1 = list(1, 2, 3) // [1, 2, 3]

@@ -1,6 +1,6 @@
 
 
-import { createApp,ref } from "vue/dist/vue.esm-bundler";
+import { createApp,ref } from "vue";
 import ButtonCounter from "./components/cbtn.vue";
 import Header from "./components/header.vue";
 import { Icon } from '@iconify/vue';

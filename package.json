@@ -2,27 +2,34 @@
   "name": "parcel-vue-template",
   "version": "1.0.2",
   "description": "",
-  "source": "src/index.html",
+  "source": "[src/*.html,]",
+  
   "scripts": {
     "start": "parcel src/*.pug src/market.pug -p 7778 --no-cache --host localhost",
-    "build": "parcel build src/*.pug src/market.pug --dist-dir docs --public-url /parcel-vue-template/",
+    "build": "parcel build src/*.pug src/market.pug --dist-dir docs ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "alias": {
+    "vue": "vue/dist/vue.esm-bundler"
+    
+  },
   "@parcel/transformer-css": {
     "cssModules": false,
     "dashedIdents": true,
     "pattern": "[hash]-[local]"
     
   },
+
   "devDependencies": {
     "@parcel/compressor-brotli": "^2.5.0",
     "@parcel/compressor-gzip": "^2.5.0",
     "@parcel/transformer-pug": "^2.5.0",
     "@parcel/transformer-stylus": "^2.5.0",
     "@parcel/transformer-vue": "^2.5.0",
+    "@vue/compiler-sfc":"latest",
     "parcel": "^2.5.0"
   },
   "dependencies": {

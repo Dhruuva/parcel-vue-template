@@ -1,9 +1,9 @@
 
-import { createApp } from "vue/dist/vue.esm-bundler";
+import { createApp } from "vue";
 import Entry from "./components/Entry.vue";
 import Header from "./components/header.vue";
 globalThis.__VUE_OPTIONS_API__ = true;
-globalThis.__VUE_PROD_DEVTOOLS__ = false;
+globalThis.__VUE_PROD_DEVTOOLS__ = true;
 
 const app = createApp({});
 app.component("my-header",Header);
