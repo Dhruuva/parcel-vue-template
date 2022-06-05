@@ -1,0 +1,1 @@
+{"mappings":"oeACA,IAAAA,EAAAC,EAAA,sBAEWD,EAAAE,UAAUC,EAAAC,SAClBC,MAAM","sources":["src/components/header.js"],"sourcesContent":["\nimport { createApp } from \"vue\";\nimport Header from \"./header.vue\";\nconst hd = createApp(Header);\nhd.mount(\"#mynav\");"],"names":["$alq7w","parcelRequire","createApp","$h7UQ3","default","mount"],"version":3,"file":"_header.c046d5e2.js.map"}
