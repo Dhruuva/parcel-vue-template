@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel src/*.pug src/market.pug -p 7778 --no-cache --host localhost",
-    "build": "parcel build src/*.pug src/market.pug --dist-dir docs",
+    "build": "parcel build src/*.pug src/market.pug --dist-dir docs --public-url /parcel-vue-template/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
