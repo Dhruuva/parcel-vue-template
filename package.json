@@ -1,6 +1,6 @@
 {
   "name": "parcel-vue-template",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "source": "[src/*.html]",
   
@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "alias": {
-    "vue": "vue/dist/vue.esm-bundler"
+    "vue": "vue/dist/vue.esm-browser.prod"
     
   },
   "@parcel/transformer-css": {
