@@ -1,16 +1,15 @@
 {
   "name": "parcel-vue-template",
   "version": "1.0.10",
-  "description": "",
+  "description": " Boilerplate Vue3 + Parcel for fast start and exploring capability.",
   "source": "[src/*.html]",
-  
-  "scripts": {
+   "scripts": {
     "start": "parcel src/*.pug src/market.pug -p 7778 --no-cache --host localhost",
     "build": "parcel build src/*.pug src/market.pug --public-url /parcel-vue-template/ --dist-dir docs ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": " Aleksey Bazhenov todhruva@mail.ru",
   "license": "ISC",
   "alias": {
     "vue": "vue/dist/vue.esm-browser.prod"
