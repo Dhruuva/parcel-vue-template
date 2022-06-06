@@ -6,14 +6,21 @@
    "scripts": {
     "start": "parcel src/*.pug src/market.pug -p 7778 --no-cache --host localhost",
     "build": "parcel build src/*.pug src/market.pug --public-url /parcel-vue-template/ --dist-dir docs ",
-    "test": "echo \"Error: no test specified\" && exit 1"
+   
   },
   "keywords": [],
   "author": " Aleksey Bazhenov todhruva@mail.ru",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhruuva/parcel-vue-template/issues"
+  },
   "alias": {
     "vue": "vue/dist/vue.esm-browser.prod"
     
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhruuva/parcel-vue-template.git"
   },
   "@parcel/transformer-css": {
     "cssModules": false,
