@@ -3,10 +3,10 @@
   "version": "1.0.10",
   "description": " Boilerplate Vue3 + Parcel for fast start and exploring capability.",
   "source": "[src/*.html]",
-   "scripts": {
-    "start": "parcel src/*.pug src/market.pug -p 7778 --no-cache --host localhost",
-    "build": "parcel build src/*.pug src/market.pug --public-url /parcel-vue-template/ --dist-dir docs ",
-   
+  "scripts": {
+    "start": "parcel src/*.pug -p 7778 --host localhost",
+    "serve": "parcel src/*.pug src/market.pug -p 7778 --no-cache --host localhost",
+    "build": "parcel build src/*.pug src/market.pug --public-url /parcel-vue-template/ --dist-dir docs"
   },
   "keywords": [],
   "author": " Aleksey Bazhenov todhruva@mail.ru",
@@ -16,7 +16,6 @@
   },
   "alias": {
     "vue": "vue/dist/vue.esm-browser.prod"
-    
   },
   "repository": {
     "type": "git",
@@ -26,23 +25,16 @@
     "cssModules": false,
     "dashedIdents": true,
     "pattern": "[hash]-[local]"
-    
   },
-
   "devDependencies": {
-    "@parcel/compressor-brotli": "^2.5.0",
-    "@parcel/compressor-gzip": "^2.5.0",
-    "@parcel/transformer-pug": "^2.5.0",
-    "@parcel/transformer-stylus": "^2.5.0",
-    "@parcel/transformer-vue": "^2.5.0",
-    "@vue/compiler-sfc":"latest",
-    "parcel": "^2.5.0"
+    "@parcel/transformer-pug": "latest",
+    "@parcel/transformer-stylus": "latest",
+    "@parcel/transformer-vue": "latest",
+    "@vue/compiler-sfc": "latest",
+    "parcel": "latest"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.1.1",
-    "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    "@fortawesome/vue-fontawesome": "^3.0.0-5",
     "@iconify/vue": "^3.2.1",
-    "vue": "^3.2.33"
+    "vue": "latest"
   }
 }
