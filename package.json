@@ -11,14 +11,16 @@
     "clean": "rm -rf dist .parcel-cache"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "keywords": ["parcel"],
+  "keywords": [
+    "parcel"
+  ],
   "author": " Aleksey Bazhenov todhruva@mail.ru",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Dhruuva/parcel-vue-template/issues"
   },
   "alias": {
-    "vue": "vue/dist/vue.esm-bundler"
+    "vue": "vue/dist/vue.esm-browser.prod"
   },
   "repository": {
     "type": "git",
@@ -34,8 +36,7 @@
     "@parcel/transformer-stylus": "latest",
     "@parcel/transformer-vue": "latest",
     "@vue/compiler-sfc": "latest",
-    "parcel": "latest",
-    "parcel-resolver-vue3-runtime": "^2.1.0"
+    "parcel": "latest"
   },
   "dependencies": {
     "@iconify/vue": "^3.2.1",
