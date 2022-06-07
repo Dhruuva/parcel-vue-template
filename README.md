@@ -20,7 +20,16 @@ cd myproject
 # Install NPM dependencies
 npm install
 
+
 # Then simply start your app
 npm start
+
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+or
+npm run watch (without dev server, only a HMR server).
 
 ```
