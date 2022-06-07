@@ -33,3 +33,5 @@ or
 npm run watch (without dev server, only a HMR server).
 
 ```
+## Credits
+Many thanks to [parcel-resolver-vue3-runtime](https://github.com/npulidom/parcel-resolver-vue3-runtime) it let us free from manually changing vue alias in production mode.
