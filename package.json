@@ -18,7 +18,7 @@
     "url": "https://github.com/Dhruuva/parcel-vue-template/issues"
   },
   "alias": {
-    "vue": "vue/dist/vue.esm-browser.prod"
+    "vue": "vue/dist/vue.esm-bundler"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,8 @@
     "@parcel/transformer-stylus": "latest",
     "@parcel/transformer-vue": "latest",
     "@vue/compiler-sfc": "latest",
-    "parcel": "latest"
+    "parcel": "latest",
+    "parcel-resolver-vue3-runtime": "^2.1.0"
   },
   "dependencies": {
     "@iconify/vue": "^3.2.1",
